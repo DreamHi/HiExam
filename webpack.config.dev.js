@@ -26,7 +26,7 @@ module.exports = {
   },
 
   devServer: {
-    port: 7777,
+    port: process.env.PORT || 7777,
     contentBase: resolve(__dirname, 'dist'),
     compress: true,
     inline: true,
