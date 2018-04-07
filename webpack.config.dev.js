@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const ChunkManifestPlugin = require('chunk-manifest-webpack-plugin');
 const WebpackChunkHash = require('webpack-chunk-hash');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const port = process.env.PORT || 7777;
 
 module.exports = {
   mode: 'development',
@@ -26,7 +27,7 @@ module.exports = {
   },
 
   devServer: {
-    port: process.env.PORT || 7777,
+    port: port,
     contentBase: resolve(__dirname, 'dist'),
     compress: true,
     inline: true,
@@ -74,6 +75,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       'process.env': {
+        NODE_ENV: JSON.stringify("production"),
         API_URL: JSON.stringify(process.env.API_URL || 'http://127.0.0.1:3000'),
       },
     }),
