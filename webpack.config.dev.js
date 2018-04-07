@@ -74,6 +74,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       'process.env': {
+        NODE_ENV: JSON.stringify("production"),
         API_URL: JSON.stringify(process.env.API_URL || 'http://127.0.0.1:3000'),
       },
     }),
