@@ -1,0 +1,98 @@
+.exam-category {
+  display: inline-block;
+  width: 100%;
+}
+
+.exam-category span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.exam-category-title {
+  border-bottom: 1px solid #C0BCBB;
+  margin: 12px 12px 12px 10px
+}
+
+.exam-category-card {
+  width: 200px;
+  float: left;
+  margin: 5px 10px;
+}
+
+.exam-category-card .ant-card-body {
+  padding: 12px;
+}
+
+.exam-category-card .ant-card-meta-title {
+  text-align: center;
+}
+
+.exam-category-card .ant-card-actions > li > span {
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 1px;
+}
+
+.exam-category-card .ant-card-actions > li {
+  margin: 6px 0;
+}
+
+.exam-category-add {
+  font-size: 36px;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.exam-category-count {
+  font-size: 36px;
+  text-align: center;
+}
+
+.exam-search {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.exam-search-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.exam-search-table th, .exam-search-table td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding-top:8px;
+  padding-bottom:8px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.exam-search-table th {
+  padding-right:8px;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.exam-search-table td {
+  width: 36%;
+}
+
+.exam-search-table .exam-search-table-space {
+  border:none;
+  width:16px;
+}
+
+.exam-search-operation {
+  display: inline-block;
+  position: inherit;
+  text-align: right;
+  padding-top: 16px;
+}
+
+.exam-search-operation .ant-btn {
+  margin-right: 8px;
+}
+
+
