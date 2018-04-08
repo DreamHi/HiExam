@@ -16,7 +16,7 @@
 .exam-category-card {
   width: 200px;
   float: left;
-  margin: 2px 10px;
+  margin: 5px 10px;
 }
 
 .exam-category-card .ant-card-body {
@@ -41,7 +41,7 @@
 .exam-category-add {
   font-size: 36px;
   text-align: center;
-  margin: 16px 0;
+  margin: 25px 0;
 }
 
 .exam-category-count {
