@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --progress --profile --colors --config webpack.config.prod.js",
     "start": "webpack-dev-server --config webpack.config.dev.js",
-    "heroku": "npm run build && node ./heroku/app.js"
+    "heroku": "npm run build && NODE_ENV=production node ./heroku/app.js"
   },
   "repository": {
     "type": "git",
