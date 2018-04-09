@@ -18,10 +18,6 @@
     "url": "https://github.com/DreamHi/HiExam/issues"
   },
   "homepage": "https://github.com/DreamHi/HiExam#readme",
-  "engines": {
-    "node": "6.11.1",
-    "npm": "3.10.10"
-  },
   "dependencies": {
     "antd": "3.4.0",
     "axios": "0.18.0",
