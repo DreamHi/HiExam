@@ -14,6 +14,7 @@ import SNotFound from './modules/system/scenes/SNotFound';
 import storage from './util/storage';
 import { ROUTE_LOGIN, ROUTE_HOME, ROUTE_EXAM, ROUTE_QUESTION,
          ROUTE_QUESTION_LIST, ROUTE_MANAGE } from './util/constants';
+import './static/css/resetant.css';
 import './static/css/index.css';
 import './static/css/exam.css';
 
